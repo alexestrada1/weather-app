@@ -10,29 +10,33 @@
   <body>
     <div class="container">
       <div class="search-bar">
-        <button class="search">Search</button>
         <input type="text" class="city-name" />
+        <button class="search">Search</button>
       </div>
       <div class="card">
-        <div class="city"></div>
-        <div class="weather-condition"></div>
-        <div class="tempbox">
-        <div class="temp"></div>
-        <div class="unit"></div>
-      </div>
-        <div class="feels"></div>
-        <div class="tempMax"></div>
-        <div class="humidity"></div>
-        <div class="degree"></div>
+        <div class="left">
+          <div class="city"></div>
+          <div class="weather-condition"></div>
+          <div class="tempbox">
+            <div class="temp"></div>
+            <div class="unit"></div>
+          </div>
+        </div>
+        <div class="right">
+          <div class="feels"></div>
+          <div class="tempMax"></div>
+          <div class="humidity"></div>
+          <div class="degree"></div>
+        </div>
       </div>
       <div class="toggle">
         <label class="switch">
-          <input class="toggleF" type="checkbox">
+          <input class="toggleF" type="checkbox" />
           <span class="slider"></span>
         </label>
-
+        <div class="deg-switch">Switch Between Celsius and Fahrenheit</div>
       </div>
-  </div>
+    </div>
 
     <script src="js.js"></script>
   </body>
